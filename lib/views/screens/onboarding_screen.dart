@@ -10,9 +10,13 @@ class OnboardingScreen extends StatefulWidget {
 class _OnboardingScreenState extends State<OnboardingScreen> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Center(
-        child: Text('Onboading Screen'),
+    return Scaffold(
+      body: Container(
+        child: Column(
+          children: [
+            Image.asset('assets/images/barber.png'),
+          ],
+        ),
       ),
     );
   }
