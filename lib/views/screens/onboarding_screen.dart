@@ -13,10 +13,23 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
     return Scaffold(
       backgroundColor: const Color.fromARGB(255, 56, 29, 20),
       body: Container(
-        margin: const EdgeInsets.only(top: 90),
+        margin: const EdgeInsets.only(top: 120),
         child: Column(
           children: [
             Image.asset('assets/images/barber.png'),
+            Container(
+              decoration: BoxDecoration(
+                color: Colors.orange,
+              ),
+              child: const Text(
+                'Get a stylish haircut',
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
           ],
         ),
       ),
