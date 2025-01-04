@@ -14,7 +14,17 @@ class _HomeScreenState extends State<HomeScreen> {
       backgroundColor: Colors.black,
       body: Container(
         child: Column(
-          children: [],
+          children: [
+            Row(
+              children: [
+                Text('Hello', style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.white,
+                  fontWeight: FontWeight.w500,
+                ),)
+              ],
+            ),
+          ],
         ),
       ),
     );

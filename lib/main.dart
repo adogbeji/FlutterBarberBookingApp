@@ -1,3 +1,4 @@
+import 'package:barber_booking_app/views/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:barber_booking_app/views/screens/onboarding_screen.dart';
 
@@ -18,7 +19,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const OnboardingScreen(),
+      // home: const OnboardingScreen(),
+      home: const HomeScreen(),
     );
   }
 }
