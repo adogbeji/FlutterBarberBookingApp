@@ -13,12 +13,13 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       backgroundColor: Colors.black,
       body: Container(
+        margin: EdgeInsets.only(top: 40, left: 20),
         child: Column(
           children: [
             Row(
               children: [
                 Text('Hello', style: TextStyle(
-                  fontSize: 20,
+                  fontSize: 24,
                   color: Colors.white,
                   fontWeight: FontWeight.w500,
                 ),)
