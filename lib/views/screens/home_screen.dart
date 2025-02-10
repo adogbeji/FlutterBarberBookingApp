@@ -13,16 +13,48 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       backgroundColor: Colors.black,
       body: Container(
-        margin: EdgeInsets.only(top: 40, left: 20),
-        child: Column(
+        margin: const EdgeInsets.only(top: 40, left: 20),
+        child: const Column(
           children: [
             Row(
               children: [
-                Text('Hello', style: TextStyle(
-                  fontSize: 24,
-                  color: Colors.white,
-                  fontWeight: FontWeight.w500,
-                ),)
+                Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      'Hello',
+                      style: TextStyle(
+                        fontSize: 24,
+                        color: Colors.white,
+                        fontWeight: FontWeight.w500,
+                      ),
+                    ),
+                    Text(
+                      'Ben',
+                      style: TextStyle(
+                        fontSize: 24,
+                        color: Colors.white,
+                        fontWeight: FontWeight.w500,
+                      ),
+                    ),
+                  ],
+                ),
+                // Text(
+                //   'Hello',
+                //   style: TextStyle(
+                //     fontSize: 24,
+                //     color: Colors.white,
+                //     fontWeight: FontWeight.w500,
+                //   ),
+                // ),
+                // Text(
+                //   'Ben',
+                //   style: TextStyle(
+                //     fontSize: 24,
+                //     color: Colors.white,
+                //     fontWeight: FontWeight.w500,
+                //   ),
+                // ),
               ],
             ),
           ],
