@@ -11,14 +11,14 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black,
+      backgroundColor: const Color(0xFF2B1615),
       body: Container(
         margin: const EdgeInsets.only(top: 40, left: 20),
-        child: const Column(
+        child: Column(
           children: [
             Row(
               children: [
-                Column(
+                const Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
@@ -39,6 +39,9 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                   ],
                 ),
+
+                Image.asset('assets/images/boy.jpg', width: 50, height: 50, fit: BoxFit.cover,),
+
                 // Text(
                 //   'Hello',
                 //   style: TextStyle(
