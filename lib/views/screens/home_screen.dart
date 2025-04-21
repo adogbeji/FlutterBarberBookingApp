@@ -70,7 +70,18 @@ class _HomeScreenState extends State<HomeScreen> {
               ],
             ),
 
-            Divider(),
+            const SizedBox(height: 20,),
+
+            const Divider(color: Colors.white30,),
+
+            const Text(
+              'Services',
+              style: TextStyle(
+                fontSize: 24,
+                color: Colors.white,
+                fontWeight: FontWeight.w500,
+              ),
+            ),
           ],
         ),
       ),
